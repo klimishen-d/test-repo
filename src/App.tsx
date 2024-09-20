@@ -23,7 +23,15 @@ function App() {
         </a>
       </header>
 
-      <button className="App-button" onClick={handleClick}></button>
+      <button className="App-button" onClick={handleClick}>
+        Increment
+      </button>
+
+      <p>Count: {count}</p>
+
+      <button className="App-button" onClick={() => setCount(0)}>
+        Reset
+      </button>
     </div>
   );
 }
