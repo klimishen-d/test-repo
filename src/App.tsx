@@ -4,7 +4,7 @@ import "./App.css";
 
 function App() {
   const [count, setCount] = React.useState(0);
-  const handleClick = () => setCount(count + 1);
+  const handleClick = () => setCount(count);
 
   return (
     <div className="App">
