@@ -29,9 +29,7 @@ function App() {
 
       <p>Count: {count}</p>
 
-      <button className="App-button" onClick={() => setCount(0)}>
-        Reset
-      </button>
+      <button className="App-button">Reset</button>
     </div>
   );
 }
