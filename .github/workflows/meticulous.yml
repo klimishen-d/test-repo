@@ -73,4 +73,4 @@ jobs:
         with:
           api-token: ${{ secrets.METICULOUS_API_TOKEN }}
           # TODO: Update the port and protocol below to match your app's frontend
-          app-url: "http://localhost:3000/"
+          app-url: "https://klimishen-d.github.io/test-repo"
